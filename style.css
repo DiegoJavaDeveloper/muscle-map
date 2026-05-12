@@ -207,3 +207,61 @@ body{
     color: #ff4500; /* Cambia de color al pasar el mouse */
 }
 
+
+
+.calculadoratxt{
+    color: white;
+    font-size: 20px;
+    font-family: oswald, sans-serif;
+    text-align: center;
+  
+}
+
+.titulo-imc{
+    color: orange;
+    font-size: 30px;
+    font-family: oswald, sans-serif;
+    text-align: center;
+  
+}
+
+.calculadora-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.input-group { margin-bottom: 15px; 
+color: white;}
+
+.input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn-calcular {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.resultado-box { margin-top: 20px; font-size: 1.2rem; color: orange; }
+
+.imcimg{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 12px;
+    }
+
