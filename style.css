@@ -183,29 +183,3 @@ body{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-}
-
-.logo span {
-    color: #ff4500; /* Tu color de acento (naranja) */
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #ff4500; /* Cambia de color al pasar el mouse */
-}
