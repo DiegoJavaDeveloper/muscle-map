@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js"></script>
+</head>
+<div>
+    <nav class="navbar">
+        <div class="logo">Muscle<span>Map</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="calculadora.html">Calculadora de IMC</a></li>
+            <li><a href="#" onclick="mostrarAlerta(); return false;">Contacto</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+    <div class="titulo-imc"><h1>Calculadora de indice de masa corporal</h1></div>
+
+    <div class="calculadoratxt"><p>El Índice de Masa Corporal (IMC) es una medida que relaciona el peso y la altura para evaluar el estado nutricional y el riesgo de enfermedades asociadas al peso.  Se calcula dividiendo el peso en kilogramos por la altura en metros al cuadrado.
+
+Los resultados se clasifican según los rangos de la Organización Mundial de la Salud (OMS) de la siguiente manera:
+
+
+Es importante destacar que el IMC es una herramienta de cribado general y no distingue entre masa muscular y grasa corporal, por lo que puede no ser preciso para deportistas, personas mayores, niños o mujeres embarazadas.  Para un diagnóstico nutricional preciso, se recomienda consultar a un profesional de la salud que evalúe además la composición corporal, la distribución de la grasa y otros factores metabólicos. </p></div>
+
+<br>
+<br>
+<div class="imcimg"><img src="imc.webp" alt="imc" width="400" height="400"></div>
+<br>
+<br>
+<div class="calculadora-container">
+    <div class="input-group">
+        <label>Peso (kg):</label>
+        <input type="number" id="peso" placeholder="Ej: 75">
+    </div>
+    <div class="input-group">
+        <label>Altura (cm):</label>
+        <input type="number" id="altura" placeholder="Ej: 175">
+    </div>
+    <button onclick="calcularIMC()" class="btn-calcular">Calcular Mi IMC</button>
+    
+    <div id="resultado" class="resultado-box">
+        <!-- Aquí aparecerá el resultado -->
+    </div>
+</div>
+</body>
+</html>
